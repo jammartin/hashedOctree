@@ -1,0 +1,16 @@
+# Ignoring temporary files
+*~
+
+# Ignore IntelliJ project
+.idea
+
+# Ignore generated png and csv files
+*.csv
+*.png
+
+# But include 'hot_result_readme.png' for image shown in readme
+!hot_result_readme.png
+
+# Ignore bin/ and build/ directories
+bin/
+build/
